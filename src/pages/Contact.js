@@ -45,7 +45,7 @@ const Contact = () => {
           <p>
             LinkedIn:{" "}
             <a
-              href="https://linkedin.com/in/jyoti"
+              href="https://linkedin.com/in/jyoti-sharma-168474179/"
               className="text-blue-500 hover:underline"
             >
               linkedin.com/in/jyoti
@@ -54,7 +54,7 @@ const Contact = () => {
           <p>
             GitHub:{" "}
             <a
-              href="https://github.com/jyoti"
+              href="https://github.com/JyotiSharma111"
               className="text-blue-500 hover:underline"
             >
               github.com/jyoti

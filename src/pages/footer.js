@@ -17,21 +17,21 @@ const Footer = () => {
         <div className="flex justify-center gap-6 mt-4 text-xl">
 
           <a
-            href="https://github.com/"
+            href="https://github.com/JyotiSharma111"
             className="hover:text-blue-400 transition"
           >
             <FaGithub />
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://linkedin.com/in/jyoti-sharma-168474179/"
             className="hover:text-blue-400 transition"
           >
             <FaLinkedin />
           </a>
 
           <a
-            href="mailto:your@email.com"
+            href="mailto:minikanva@gmail.com"
             className="hover:text-blue-400 transition"
           >
             <FaEnvelope />
