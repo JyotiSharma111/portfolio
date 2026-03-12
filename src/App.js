@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -15,28 +15,29 @@ import PrivateRoute from "./components/PrivateRoute";
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
-    <ScrollToTop />
+      <Navbar />
+      <ScrollToTop />
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />}    />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/projects/weather" element={<WeatherApp /> } />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/projects/auth/register" element={< Register />} />
-      <Route path="/projects/auth/login" element={<Login />} />
-      <Route path="/dashboard/horoscope" element={< HoroscopeDashboard />} />
-      <Route path="/projects/horoscope" 
-      element = {
-        <PrivateRoute>
-          <HoroscopeDashboard />
-        </PrivateRoute>
-      }
-      />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/weather" element={<WeatherApp />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/auth/register" element={<Register />} />
+        <Route path="/projects/auth/login" element={<Login />} />
+        <Route path="/dashboard/horoscope" element={<HoroscopeDashboard />} />
+        <Route
+          path="/projects/horoscope"
+          element={
+            <PrivateRoute>
+              <HoroscopeDashboard />
+            </PrivateRoute>
+          }
+        />
+      </Routes>
 
-    <Footer />
+      <Footer />
     </BrowserRouter>
   );
 }

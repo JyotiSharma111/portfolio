@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profile from "../Assets/Jyoti_Sharma.jpg";
-import WeatherApp from "../Projects/WeatherApp";
+
 
 const Projects = () => {
   const projects = [
@@ -10,7 +9,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description:
         "Built with React and Tailwind CSS to showcase my learning journey and projects.",
-      image: require("../Assets/Jyoti_Sharma.jpg"),
+      image: require("../Assets/home.png"),
       tech: ["React", "Tailwind"],
       link: "/contact",
     },
@@ -19,7 +18,7 @@ const Projects = () => {
       title: "Weather App",
       description:
         "A simple app fetching weather data using API and displaying responsive UI.",
-      image: require("../Assets/Jyoti_Sharma.jpg"),
+      image: require("../Assets/Weather.png"),
       tech: ["JavaScript", "API", "Tailwind"],
       link: "/projects/weather",
     },
@@ -28,7 +27,7 @@ const Projects = () => {
       title: "Login/Register App",
       description:
         "A React authentication project demonstrating routing, forms, localStorage, and protected dashboard for logged-in users.",
-      image: require("../Assets/Jyoti_Sharma.jpg"),
+      image: require("../Assets/Register.png"),
       tech: ["React","React Router","Tailwind CSS","LocalStorage"],
       link: "/projects/auth/login",
     },
