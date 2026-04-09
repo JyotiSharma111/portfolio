@@ -10,12 +10,10 @@ const Home = () => {
         <h1 className="text-5xl font-bold text-gray-900 mb-4">Jyoti Sharma</h1>
 
         <p className="text-xl  text-gray-700 mb-6">
-          Aspiring Frontend Developer & CRO Specialist
+          Designing, Building, and Optimizing Digital Experiences
         </p>
         <p className="text-xl text-gray-600 mb-8">
-          Combining 5+ years of experience in optimizing websites with hands-on
-          React development to build impactful and user-friendly web
-          applications.
+          Aspiring UX Designer and Web Developer with 5+ years in CRO, focused on creating intuitive interfaces and data-driven solutions that improve user experience and performance.
         </p>
         <div className="flex gap-4 mt-6">
           <Link

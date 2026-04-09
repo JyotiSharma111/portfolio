@@ -11,6 +11,7 @@ import Register from "./Projects/Auth/Register";
 import Login from "./Projects/Auth/Login";
 import HoroscopeDashboard from "./Projects/HoroscopeDashboard";
 import PrivateRoute from "./components/PrivateRoute";
+import CaseStudies from "./pages/CaseStudies";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/projects/auth/register" element={<Register />} />
         <Route path="/projects/auth/login" element={<Login />} />
         <Route path="/dashboard/horoscope" element={<HoroscopeDashboard />} />
+        <Route path="/ux-case-studies" element={<CaseStudies />} />
         <Route
           path="/projects/horoscope"
           element={
